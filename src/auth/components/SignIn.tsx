@@ -43,7 +43,7 @@ const SignIn: React.FC<Props> = props => {
   return (
     <div className="col-md-6 m-auto py-3">
       <form className="auth-form" onSubmit={onSignIn}>
-        <h3>Sign In</h3>
+        <h3>Oturum Aç</h3>
         <label htmlFor="email">Email</label>
         <input
           required
@@ -63,7 +63,7 @@ const SignIn: React.FC<Props> = props => {
           onChange={e => setPassword(e.target.value)}
         />
         <Button variant="primary" type="submit">
-          Sign In
+          Oturum Aç
         </Button>
       </form>
     </div>
