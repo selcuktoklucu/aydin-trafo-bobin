@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, Suspense  } from 'react'
 // import logo from './logo.svg'
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
@@ -13,14 +13,17 @@ import { AlertProps } from 'react-bootstrap/Alert'
 import NewOrder from './neworder/components/NewOrder'
 import { ToastContainer, toast } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
-
+import MainPage from './containers/components/MainPage'
+import './i18n'
+import ContactUs from './containers/ContactUs'
 const App: React.FC = () => {
   const [user, setUser] = useState()
   const [alerts, setAlerts] = useState([])
 
   return (
+    <Suspense fallback={null}>
     <div className="App">
-      <main className="container">
+      <main className="container-fluid">
         <ToastContainer />
         <Router>
           <Header user={user}></Header>
@@ -36,14 +39,41 @@ const App: React.FC = () => {
               </AutoDismissAlert>
             ))}
           <Switch>
-            <AuthenticatedRoute
-              user={user}
+            <Route
               exact
               path="/"
               render={() => (
+                  <MainPage />
+              )}
+            />
+            <Route
+              path="/technical-resources"
+              render={() => (
                 <div>
-                  <h1>Under Construction</h1>
+                  <h1>Teknik Bilgiler</h1>
                 </div>
+              )}
+            />
+            <Route
+              path="/services"
+              render={() => (
+                <div>
+                  <h1>Services Under Construction</h1>
+                </div>
+              )}
+            />
+            <Route
+              path="/references"
+              render={() => (
+                <div>
+                  <h1>İş Ortaklarımız</h1>
+                </div>
+              )}
+            />
+            <Route
+              path="/contact-us"
+              render={() => (
+                <ContactUs />
               )}
             />
             <AuthenticatedRoute
@@ -94,6 +124,7 @@ const App: React.FC = () => {
         </Router>
       </main>
     </div>
+    </Suspense>
   )
 }
 

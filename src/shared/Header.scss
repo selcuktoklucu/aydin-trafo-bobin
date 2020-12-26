@@ -9,7 +9,7 @@ $charcoal: #bbb;
 
   a,
   span {
-    font-size: 1.2em;
+    font-size: 1.0em;
     margin: 0 15px;
   }
 }
@@ -24,12 +24,13 @@ $charcoal: #bbb;
 @media (max-width: 600px) {
   .main-header {
     flex-direction: column;
-    font-size: 0.7em;
+    font-size: 0.9em;
     height: auto;
     padding: 10px;
 
     h1 {
-      font-size: 2.5em;
+      // font-size: 2.5em;
+      display: none;
     }
   }
 }
@@ -46,5 +47,7 @@ $charcoal: #bbb;
       text-align: center;
       width: 80%;
     }
+
+
   }
 }

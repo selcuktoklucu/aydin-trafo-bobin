@@ -6,6 +6,7 @@ import * as serviceWorker from './serviceWorker'
 import { Provider } from 'react-redux'
 import { systemReducer } from './redux/system/reducers'
 import { createStore } from 'redux'
+// import './i18n';
 
 const store = createStore(systemReducer)
 

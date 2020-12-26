@@ -3,8 +3,16 @@ import { Link } from 'react-router-dom'
 import './Header.scss'
 import { User } from './types'
 import logo from '../assets/header/logo.png'
+import LanguageSelector from '../containers/components/LanguageSelector'
+import { useTranslation } from 'react-i18next'
 
-const authenticatedOptions = (
+type Props = {
+  user: User
+}
+const Header: React.FC<Props> = props => {
+
+  const { t, i18n } = useTranslation()
+  const authenticatedOptions = (
   <React.Fragment>
     <Link to="/new-order">Yeni Sipariş</Link>
     <Link to="/change-password">Parolayı Değiştir</Link>
@@ -14,31 +22,29 @@ const authenticatedOptions = (
 
 const unauthenticatedOptions = (
   <React.Fragment>
-    <Link to="/sign-in">Üye Müşteri Girişi</Link>
+    <Link to="/sign-in">{t("customer.login.label")}</Link>
   </React.Fragment>
 )
+
 
 const alwaysOptions = (
   <React.Fragment>
-    <Link to="/">Ana sayfa</Link>
-    <Link to="/technical_resources">Teknik Bilgiler</Link>
-    <Link to="/services">Hizmetler</Link>
-    <Link to="/referenaces">İş Ortaklarımız</Link>
-    <Link to="/contact_us">İletişim</Link>
+    <Link to="/">{t("main-page.label")}</Link>
+    <Link to="/technical-resources">{t("technical-resources.label")}</Link>
+    <Link to="/services">{t("services.label")}</Link>
+    <Link to="/references">{t("references.label")}</Link>
+    <Link to="/contact-us">{t("contact-us.label")}</Link>
+    <LanguageSelector />
   </React.Fragment>
 )
 
-type Props = {
-  user: User
-}
 
-const Header: React.FC<Props> = props => {
   const { user } = props
   //console.log(user)
   return (
     <header className="main-header">
       <img src={logo} className="App-logo" alt="logo" />
-      <h1>Aydın Elektro Mekanik Bobinaj</h1>
+      <h1 className={"hidden-md-down"}>Aydın Elektro Mekanik Bobinaj</h1>
       <nav>
         {user && <span>Hoşgeldiniz, {user.email}</span>}
         {user ? authenticatedOptions : unauthenticatedOptions}
