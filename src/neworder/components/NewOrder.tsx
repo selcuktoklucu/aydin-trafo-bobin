@@ -7,7 +7,7 @@ import { Credentials, User } from '../../shared/types'
 import Button from 'react-bootstrap/Button'
 import { searchPhone, getSuggestions, saveTheAddress } from '../apiNewOrder'
 import { AlertProps } from 'react-bootstrap/Alert'
-import { default as NumberFormat } from 'react-number-format'
+// import { default as NumberFormat } from 'react-number-format'
 import { ToastContainer, toast } from 'react-toastify'
 
 type Props = {
@@ -90,17 +90,6 @@ const NewOrder: React.FC<Props> = props => {
             }
           }}
         />*/}
-        <NumberFormat
-          format="(###) ###-####"
-          mask="_"
-          onValueChange={e => {
-            const re = /^[0-9\b]+$/
-
-            if (e.value === '' || re.test(e.value)) {
-              setPhoneNumber(e.value)
-            }
-          }}
-        />
 
         <label htmlFor="text">Address</label>
 
