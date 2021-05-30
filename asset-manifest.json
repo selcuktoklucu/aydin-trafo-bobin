@@ -1,26 +1,30 @@
 {
   "files": {
-    "main.css": "/static/css/main.6c779227.chunk.css",
-    "main.js": "/static/js/main.1f9e1ff2.chunk.js",
-    "main.js.map": "/static/js/main.1f9e1ff2.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.12a6431d.js",
-    "runtime-main.js.map": "/static/js/runtime-main.12a6431d.js.map",
-    "static/css/2.61bb36c9.chunk.css": "/static/css/2.61bb36c9.chunk.css",
-    "static/js/2.8110501e.chunk.js": "/static/js/2.8110501e.chunk.js",
-    "static/js/2.8110501e.chunk.js.map": "/static/js/2.8110501e.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.ae633993c4c6423090dda6ff95ed3393.js": "/precache-manifest.ae633993c4c6423090dda6ff95ed3393.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.61bb36c9.chunk.css.map": "/static/css/2.61bb36c9.chunk.css.map",
-    "static/css/main.6c779227.chunk.css.map": "/static/css/main.6c779227.chunk.css.map",
-    "static/js/2.8110501e.chunk.js.LICENSE": "/static/js/2.8110501e.chunk.js.LICENSE",
-    "static/media/logo.png": "/static/media/logo.38fd4d84.png"
+    "main.css": "/aydin-trafo-bobin/static/css/main.0edeec2d.chunk.css",
+    "main.js": "/aydin-trafo-bobin/static/js/main.c8768f1f.chunk.js",
+    "main.js.map": "/aydin-trafo-bobin/static/js/main.c8768f1f.chunk.js.map",
+    "runtime-main.js": "/aydin-trafo-bobin/static/js/runtime-main.429856d3.js",
+    "runtime-main.js.map": "/aydin-trafo-bobin/static/js/runtime-main.429856d3.js.map",
+    "static/css/2.bc91644f.chunk.css": "/aydin-trafo-bobin/static/css/2.bc91644f.chunk.css",
+    "static/js/2.718b5fef.chunk.js": "/aydin-trafo-bobin/static/js/2.718b5fef.chunk.js",
+    "static/js/2.718b5fef.chunk.js.map": "/aydin-trafo-bobin/static/js/2.718b5fef.chunk.js.map",
+    "index.html": "/aydin-trafo-bobin/index.html",
+    "precache-manifest.d1bb1c6ae2e97e8790e3c1aa55155c6a.js": "/aydin-trafo-bobin/precache-manifest.d1bb1c6ae2e97e8790e3c1aa55155c6a.js",
+    "service-worker.js": "/aydin-trafo-bobin/service-worker.js",
+    "static/css/2.bc91644f.chunk.css.map": "/aydin-trafo-bobin/static/css/2.bc91644f.chunk.css.map",
+    "static/css/main.0edeec2d.chunk.css.map": "/aydin-trafo-bobin/static/css/main.0edeec2d.chunk.css.map",
+    "static/js/2.718b5fef.chunk.js.LICENSE": "/aydin-trafo-bobin/static/js/2.718b5fef.chunk.js.LICENSE",
+    "static/media/img-1-md.jpg": "/aydin-trafo-bobin/static/media/img-1-md.ac6606d8.jpg",
+    "static/media/img-2-md.jpg": "/aydin-trafo-bobin/static/media/img-2-md.b4f629d2.jpg",
+    "static/media/img-3-md.jpg": "/aydin-trafo-bobin/static/media/img-3-md.b3d00b85.jpg",
+    "static/media/lamp-trans-sm.jpg": "/aydin-trafo-bobin/static/media/lamp-trans-sm.33d616b5.jpg",
+    "static/media/logo.png": "/aydin-trafo-bobin/static/media/logo.38fd4d84.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.12a6431d.js",
-    "static/css/2.61bb36c9.chunk.css",
-    "static/js/2.8110501e.chunk.js",
-    "static/css/main.6c779227.chunk.css",
-    "static/js/main.1f9e1ff2.chunk.js"
+    "static/js/runtime-main.429856d3.js",
+    "static/css/2.bc91644f.chunk.css",
+    "static/js/2.718b5fef.chunk.js",
+    "static/css/main.0edeec2d.chunk.css",
+    "static/js/main.c8768f1f.chunk.js"
   ]
 }
