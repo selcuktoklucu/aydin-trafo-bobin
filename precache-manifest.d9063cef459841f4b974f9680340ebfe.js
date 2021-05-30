@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1acffa2d8d96d4da0ffb5e82406479f1",
+    "revision": "90691aec966b9879e1d67533c980bc2f",
     "url": "/aydin-trafo-bobin/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/aydin-trafo-bobin/static/css/2.bc91644f.chunk.css"
   },
   {
-    "revision": "193b77a3e3682746ccb0",
+    "revision": "c82b01c0606de9cf1c25",
     "url": "/aydin-trafo-bobin/static/css/main.0edeec2d.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/aydin-trafo-bobin/static/js/2.718b5fef.chunk.js.LICENSE"
   },
   {
-    "revision": "193b77a3e3682746ccb0",
-    "url": "/aydin-trafo-bobin/static/js/main.97892eef.chunk.js"
+    "revision": "c82b01c0606de9cf1c25",
+    "url": "/aydin-trafo-bobin/static/js/main.5755d121.chunk.js"
   },
   {
     "revision": "644744f6ea752dc95050",

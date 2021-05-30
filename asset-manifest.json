@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/aydin-trafo-bobin/static/css/main.0edeec2d.chunk.css",
-    "main.js": "/aydin-trafo-bobin/static/js/main.97892eef.chunk.js",
-    "main.js.map": "/aydin-trafo-bobin/static/js/main.97892eef.chunk.js.map",
+    "main.js": "/aydin-trafo-bobin/static/js/main.5755d121.chunk.js",
+    "main.js.map": "/aydin-trafo-bobin/static/js/main.5755d121.chunk.js.map",
     "runtime-main.js": "/aydin-trafo-bobin/static/js/runtime-main.429856d3.js",
     "runtime-main.js.map": "/aydin-trafo-bobin/static/js/runtime-main.429856d3.js.map",
     "static/css/2.bc91644f.chunk.css": "/aydin-trafo-bobin/static/css/2.bc91644f.chunk.css",
     "static/js/2.718b5fef.chunk.js": "/aydin-trafo-bobin/static/js/2.718b5fef.chunk.js",
     "static/js/2.718b5fef.chunk.js.map": "/aydin-trafo-bobin/static/js/2.718b5fef.chunk.js.map",
     "index.html": "/aydin-trafo-bobin/index.html",
-    "precache-manifest.1934e9305a25d4542257d52b43f8a786.js": "/aydin-trafo-bobin/precache-manifest.1934e9305a25d4542257d52b43f8a786.js",
+    "precache-manifest.d9063cef459841f4b974f9680340ebfe.js": "/aydin-trafo-bobin/precache-manifest.d9063cef459841f4b974f9680340ebfe.js",
     "service-worker.js": "/aydin-trafo-bobin/service-worker.js",
     "static/css/2.bc91644f.chunk.css.map": "/aydin-trafo-bobin/static/css/2.bc91644f.chunk.css.map",
     "static/css/main.0edeec2d.chunk.css.map": "/aydin-trafo-bobin/static/css/main.0edeec2d.chunk.css.map",
@@ -25,6 +25,6 @@
     "static/css/2.bc91644f.chunk.css",
     "static/js/2.718b5fef.chunk.js",
     "static/css/main.0edeec2d.chunk.css",
-    "static/js/main.97892eef.chunk.js"
+    "static/js/main.5755d121.chunk.js"
   ]
 }
