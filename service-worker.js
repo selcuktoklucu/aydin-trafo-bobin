@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/aydin-trafo-bobin/precache-manifest.d1bb1c6ae2e97e8790e3c1aa55155c6a.js"
+  "/aydin-trafo-bobin/precache-manifest.1934e9305a25d4542257d52b43f8a786.js"
 );
 
 self.addEventListener('message', (event) => {
